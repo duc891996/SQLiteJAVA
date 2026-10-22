@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Nhân Sự</string>
+    <string name="student_info">MSSV: 21110000 - Nguyễn Văn A</string>
+
+    <string name="title_main">DANH SÁCH NHÂN SỰ</string>
+    <string name="title_add_nhan_su">THÊM NHÂN SỰ MỚI</string>
+    <string name="title_edit_nhan_su">CẬP NHẬT NHÂN SỰ</string>
+    <string name="title_detail_nhan_su">THÔNG TIN NHÂN SỰ</string>
+
+    <string name="search_hint">Tìm kiếm theo tên, mã NS, phòng ban&#8230;</string>
+    <string name="sort_default">Sắp xếp: Mặc định</string>
+    <string name="sort_salary_asc">Lương: Thấp -&gt; Cao</string>
+    <string name="sort_salary_desc">Lương: Cao -&gt; Thấp</string>
+
+    <string name="label_ma_ns">Mã nhân sự</string>
+    <string name="label_ho_ten">Họ và tên</string>
+    <string name="label_nam_sinh">Năm sinh</string>
+    <string name="label_gioi_tinh">Giới tính</string>
+    <string name="label_que_quan">Quê quán</string>
+    <string name="label_trinh_do">Trình độ</string>
+    <string name="label_muc_luong">Mức lương (VNĐ)</string>
+    <string name="label_phong_ban">Phòng ban</string>
+    <string name="label_anh">Ảnh nhân sự</string>
+
+    <string name="btn_add">Thêm nhân sự</string>
+    <string name="btn_save">Lưu lại</string>
+    <string name="btn_cancel">Hủy bỏ</string>
+    <string name="btn_select_image">Chọn ảnh</string>
+    <string name="btn_close">Đóng</string>
+
+    <string name="confirm_delete_title">Xác nhận xóa</string>
+    <string name="confirm_delete_msg">Bạn có chắc chắn muốn xóa nhân sự này không?</string>
+    <string name="btn_yes">Có</string>
+    <string name="btn_no">Không</string>
+
+    <string name="empty_list">Chưa có nhân sự nào trong danh sách</string>
+</resources>
