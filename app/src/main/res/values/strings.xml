@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Quản Lý Nhân Sự</string>
-    <string name="student_info">MSSV: 21110000 - Nguyễn Văn A</string>
+    <string name="student_info">MSSV: K23DTCN533 - Đàm Quang Đức</string>
 
     <string name="title_main">DANH SÁCH NHÂN SỰ</string>
     <string name="title_add_nhan_su">THÊM NHÂN SỰ MỚI</string>
