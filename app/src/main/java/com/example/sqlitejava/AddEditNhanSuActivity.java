@@ -100,12 +100,12 @@ public class AddEditNhanSuActivity extends AppCompatActivity {
     }
 
     private void setupSpinners() {
-        ArrayAdapter<String> phongBanAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, PHONG_BAN_ARRAY);
-        phongBanAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> phongBanAdapter = new ArrayAdapter<>(this, R.layout.spinner_item, PHONG_BAN_ARRAY);
+        phongBanAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
         spinnerPhongBan.setAdapter(phongBanAdapter);
 
-        ArrayAdapter<String> trinhDoAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, TRINH_DO_ARRAY);
-        trinhDoAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> trinhDoAdapter = new ArrayAdapter<>(this, R.layout.spinner_item, TRINH_DO_ARRAY);
+        trinhDoAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
         spinnerTrinhDo.setAdapter(trinhDoAdapter);
     }
 

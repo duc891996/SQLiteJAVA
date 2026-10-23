@@ -95,8 +95,8 @@ public class MainActivity extends AppCompatActivity implements NhanSuAdapter.OnN
     }
 
     private void setupSortSpinner() {
-        ArrayAdapter<String> sortAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, SORT_OPTIONS);
-        sortAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        ArrayAdapter<String> sortAdapter = new ArrayAdapter<>(this, R.layout.spinner_item, SORT_OPTIONS);
+        sortAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item);
         spinnerSort.setAdapter(sortAdapter);
 
         spinnerSort.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {

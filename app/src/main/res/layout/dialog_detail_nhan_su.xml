@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/white"
+    android:background="@color/card_light"
     android:orientation="vertical">
 
     <!-- Mandatory Student Header -->
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:textColor="@color/black"
+                android:textColor="@color/text_dark"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -81,6 +81,7 @@
             android:id="@+id/tvDetailPhongBan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/text_dark"
             android:textSize="14sp" />
 
         <TextView
@@ -88,6 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:textColor="@color/text_dark"
             android:textSize="14sp" />
 
         <TextView
@@ -95,6 +97,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:textColor="@color/text_dark"
             android:textSize="14sp" />
 
         <TextView
@@ -102,6 +105,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:textColor="@color/text_dark"
             android:textSize="14sp" />
 
         <TextView
@@ -109,6 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
+            android:textColor="@color/text_dark"
             android:textSize="14sp" />
 
         <TextView
